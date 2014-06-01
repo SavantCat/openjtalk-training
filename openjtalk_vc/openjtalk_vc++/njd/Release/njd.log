@@ -1,0 +1,15 @@
+﻿2014/06/02 0:44:05 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd\njd.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\openjtalk_vc++\njd\njd.c ..\openjtalk_vc++\njd\njd_node.c
+         njd.c
+         njd_node.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd.lib" /NOLOGO /LTCG Release\njd.obj
+         Release\njd_node.obj
+         njd.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd.lib
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd\njd.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.85

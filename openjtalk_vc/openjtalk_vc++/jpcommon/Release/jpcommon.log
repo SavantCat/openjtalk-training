@@ -1,0 +1,11 @@
+﻿2014/06/02 0:49:33 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\openjtalk_vc++\jpcommon\jpcommon_label.c
+         jpcommon_label.c
+     1>..\openjtalk_vc++\jpcommon\jpcommon_label.c(78): fatal error C1189: #error :  CHARSET is not specified
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.09

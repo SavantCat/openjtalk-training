@@ -1,0 +1,1 @@
+openjtalk_vc++.exe -x ./open_jtalk_dic_shift_jis-1.07 -m ./mei/mei_happy.htsvoice -s 48000 -ow test.wav test.txt

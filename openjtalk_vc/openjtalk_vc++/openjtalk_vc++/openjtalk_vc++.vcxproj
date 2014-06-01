@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj">
+      <Project>{6acc10fd-c85d-499e-92f3-7b8820134c43}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\jpcommon\jpcommon.vcxproj">
+      <Project>{22d664fe-3488-43da-bd07-5350f6fb046d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\mecab2njd\mecab2njd.vcxproj">
+      <Project>{13da552d-198d-4616-b4aa-81603ca486d6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\mecab\mecab.vcxproj">
+      <Project>{b5477e5a-5bab-4dc6-9fea-46aa5268d946}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd2jpcommon\njd2jpcommon.vcxproj">
+      <Project>{c13ad7fd-0953-4320-8ded-08c54c2e555f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd\njd.vcxproj">
+      <Project>{d7de6d08-ec7e-468d-aeb0-a84248a3db0b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_accent_phrase\njd_set_accent_phrase.vcxproj">
+      <Project>{172f9ea3-70bc-4ce9-a8f4-539512dbf6cb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_accent_type\njd_set_accent_type.vcxproj">
+      <Project>{f08da667-f850-4842-8fe8-35e748ffe9a2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_digit\njd_set_digit.vcxproj">
+      <Project>{45fd2f5a-d7cc-41dd-b93b-f4951db44d1b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_long_vowel\njd_set_long_vowel.vcxproj">
+      <Project>{b82bfe1d-f2ff-4eb5-8060-28c6c9bca0a4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_pronunciation\njd_set_pronunciation.vcxproj">
+      <Project>{ea804a6e-40bc-4059-b0ca-aa7b707d406d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel.vcxproj">
+      <Project>{610899a7-36a6-40d1-b1f4-d0d0788ec070}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\text2mecab\text2mecab.vcxproj">
+      <Project>{d7d2ee56-1752-463a-b2dd-3c67888e9a45}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bin\open_jtalk.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HTS_engine.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B053CE7-D49B-497E-8A67-338CCC169037}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>openjtalk_vc</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>./;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./text2mecab;./njd2jpcommon;./njd_set_unvoiced_vowel;./njd_set_pronunciation;./njd_set_long_vowel;./njd_set_digit;./njd_set_accent_type;./njd_set_accent_phrase;./njd;./mecab-naist-jdic;./mecab2njd;./mecab/src;./jpcommon;./config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>./Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>G:\GitHub\openjtalks\openjtalk_vc\data\hts_engine_API-1.08\hts_engine_API-1.08\include;./text2mecab;./njd2jpcommon;./njd_set_unvoiced_vowel;./njd_set_pronunciation;./njd_set_long_vowel;./njd_set_digit;./njd_set_accent_type;./njd_set_accent_phrase;./njd;./mecab-naist-jdic;./mecab2njd;./mecab/src;./jpcommon;./config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

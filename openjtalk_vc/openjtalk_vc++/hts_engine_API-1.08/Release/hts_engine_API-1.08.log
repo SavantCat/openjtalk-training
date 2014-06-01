@@ -1,0 +1,42 @@
+﻿2014/06/02 0:47:18 にビルドを開始しました。
+     1>ノード 6 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\GitHub\openjtalks\openjtalk_vc\data\hts_engine_API-1.08\hts_engine_API-1.08\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_audio.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_engine.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_gstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_label.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_misc.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_model.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_pstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_sstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c"
+         HTS_audio.c
+         HTS_engine.c
+         HTS_gstream.c
+         HTS_label.c
+         HTS_misc.c
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_misc.c(86): warning C4133: '関数' : 'void **' と 'FILE **' の間で型に互換性がありません。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_misc.c(86): warning C4047: '=' : 間接参照のレベルが 'errno_t' と 'void *' で異なっています。
+         HTS_model.c
+         HTS_pstream.c
+         HTS_sstream.c
+         HTS_vocoder.c
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(266): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(313): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(379): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(459): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(759): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(894): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(904): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(912): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(914): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(918): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c(944): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\hts_engine_API.lib" /NOLOGO /LTCG Release\HTS_audio.obj
+         Release\HTS_engine.obj
+         Release\HTS_gstream.obj
+         Release\HTS_label.obj
+         Release\HTS_misc.obj
+         Release\HTS_model.obj
+         Release\HTS_pstream.obj
+         Release\HTS_sstream.obj
+         Release\HTS_vocoder.obj
+         hts_engine_API-1.08.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\hts_engine_API.lib
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.77

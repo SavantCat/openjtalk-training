@@ -1,0 +1,28 @@
+﻿2014/06/02 0:49:08 にビルドを開始しました。
+     1>ノード 6 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\openjtalk_vc++.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\GitHub\openjtalks\openjtalk_vc\data\hts_engine_API-1.08\hts_engine_API-1.08\include" /I./text2mecab /I./njd2jpcommon /I./njd_set_unvoiced_vowel /I./njd_set_pronunciation /I./njd_set_long_vowel /I./njd_set_digit /I./njd_set_accent_type /I./njd_set_accent_phrase /I./njd /I"./mecab-naist-jdic" /I./mecab2njd /I./mecab/src /I./jpcommon /I./config /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt bin\open_jtalk.c
+         open_jtalk.c
+     1>bin\open_jtalk.c(302): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>bin\open_jtalk.c(314): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\openjtalk_vc++.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\openjtalk_vc++.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\openjtalk_vc++.lib" /MACHINE:X86 /SAFESEH Release\open_jtalk.obj
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\hts_engine_API.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\jpcommon.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\mecab2njd.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\mecab.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd2jpcommon.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_accent_phrase.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_accent_type.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_digit.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_long_vowel.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_pronunciation.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\njd_set_unvoiced_vowel.lib
+         G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\text2mecab.lib
+     1>LINK : fatal error LNK1181: 入力ファイル 'G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Release\jpcommon.lib' を開けません。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\openjtalk_vc++.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.49
