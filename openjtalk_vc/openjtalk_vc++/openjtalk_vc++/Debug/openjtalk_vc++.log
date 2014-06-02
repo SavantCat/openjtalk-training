@@ -1,4 +1,4 @@
-﻿2014/06/02 1:42:21 にビルドを開始しました。
+﻿2014/06/02 20:55:55 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\openjtalk_vc++.vcxproj" (Build ターゲット)。
      1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\openjtalk_vc++.exe" /INCREMENTAL /NOLOGO /LIBPATH:./Debug kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\openjtalk_vc++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\openjtalk_vc++.lib" /MACHINE:X86 Debug\open_jtalk.obj
@@ -20,4 +20,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:00.74
+経過時間 00:00:01.80

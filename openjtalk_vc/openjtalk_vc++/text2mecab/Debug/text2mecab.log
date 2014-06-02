@@ -1,9 +1,14 @@
-﻿2014/06/02 0:09:15 にビルドを開始しました。
-     1>ノード 3 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\text2mecab\text2mecab.vcxproj" (Build ターゲット)。
-     1>Lib:
+﻿2014/06/02 20:01:09 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\text2mecab\text2mecab.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze /errorReport:prompt   /analyze:quiet ..\openjtalk_vc++\text2mecab\text2mecab.c
+         text2mecab.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\text2mecab.lib" /NOLOGO Debug\text2mecab.obj
          text2mecab.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\text2mecab.lib
-     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\text2mecab\text2mecab.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\text2mecab\text2mecab.c(123): warning C6385: 'text2mecab_kanji_range' から無効なデータを読み取っています: 読み取り可能なサイズは '6' バイトですが、'7' バイトを読み取る可能性があります。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\text2mecab\text2mecab.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.04
+経過時間 00:00:00.81

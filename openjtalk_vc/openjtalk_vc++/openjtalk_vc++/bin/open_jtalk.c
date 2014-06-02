@@ -267,12 +267,12 @@ static void usage()
 
 int main(int argc, char **argv)
 {
-	argv[0] = "openjtalk_vc++.exe -x ./open_jtalk_dic_shift_jis-1.07 -m ./mei/mei_happy.htsvoice -s 48000 -ow test.wav test.txt@";
+	argv[0] = "openjtalk_vc++.exe -x ./dic -m ./voice/mei_happy.htsvoice -s 48000 -ow test.wav test.txt@";
 	argv[1] = "openjtalk_vc++.exe";
 	argv[2] = "-x";
-	argv[3] = "./open_jtalk_dic_shift_jis-1.07@";
+	argv[3] = "./dic@";
 	argv[4] = "-m";
-	argv[5] = "./mei/mei_happy.htsvoice@";
+	argv[5] = "./voice/mei_happy.htsvoice@";
 	argv[6] = "-s";
 	argv[7] = "48000";
 	argv[8] = "test.wav";

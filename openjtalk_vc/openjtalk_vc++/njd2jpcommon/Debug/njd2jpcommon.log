@@ -1,13 +1,13 @@
-﻿2014/06/02 1:11:19 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd2jpcommon\njd2jpcommon.vcxproj" (Build ターゲット)。
+﻿2014/06/02 20:01:08 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd2jpcommon\njd2jpcommon.vcxproj" (Rebuild ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\openjtalk_vc++\njd2jpcommon\njd2jpcommon.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze /errorReport:prompt   /analyze:quiet ..\openjtalk_vc++\njd2jpcommon\njd2jpcommon.c
          njd2jpcommon.c
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\njd2jpcommon.lib" /NOLOGO Debug\njd2jpcommon.obj
          njd2jpcommon.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\njd2jpcommon.lib
-     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd2jpcommon\njd2jpcommon.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd2jpcommon\njd2jpcommon.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.20
+経過時間 00:00:01.80

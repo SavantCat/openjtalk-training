@@ -89,7 +89,9 @@ BOOL Mecab_load(Mecab *m, const char *dicdir){
   argv[1] = _strdup("-d");
   argv[2] = _strdup(dicdir);
 
-  m->mecab = mecab_new(argc, argv);
+  
+
+  m->mecab = mecab_new(argc, argv);//Error point
 
   for(i = 0;i < argc;i++)
     free(argv[i]);

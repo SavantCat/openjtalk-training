@@ -1,8 +1,31 @@
-﻿2014/06/02 1:04:59 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Build ターゲット)。
+﻿2014/06/02 20:01:10 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Rebuild ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_audio.c"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze /errorReport:prompt   /analyze:quiet "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_audio.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_engine.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_gstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_label.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_misc.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_model.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_pstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_sstream.c" "..\..\data\hts_engine_API-1.08\hts_engine_API-1.08\lib\HTS_vocoder.c"
+         HTS_vocoder.c
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(266): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(313): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(379): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(459): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(759): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(894): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(904): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(912): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(914): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(918): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_vocoder.c(944): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         HTS_sstream.c
+         HTS_pstream.c
+         HTS_model.c
+         HTS_misc.c
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_misc.c(86): warning C4133: '関数' : 'void **' と 'FILE **' の間で型に互換性がありません。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_misc.c(86): warning C4047: '=' : 間接参照のレベルが 'errno_t' と 'void *' で異なっています。
+         HTS_label.c
+         HTS_gstream.c
+         HTS_engine.c
          HTS_audio.c
+         C/C++ のコード分析を実行しています...
+         コードを生成中...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\hts_engine_API.lib" /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" /NOLOGO Debug\HTS_audio.obj
          Debug\HTS_engine.obj
@@ -14,8 +37,20 @@
          Debug\HTS_sstream.obj
          Debug\HTS_vocoder.obj
          hts_engine_API-1.08.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\hts_engine_API.lib
-     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_label.c(138): warning C6011: NULL ポインター 'lstring' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_label.c(193): warning C6011: NULL ポインター 'lstring' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_misc.c(527): warning C6387: 'mem' は '0' である可能性があります: この動作は、関数 'memset' の指定に従っていません。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(216): warning C6011: NULL ポインター 'last_pattern' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(219): warning C28182: NULL ポインターを逆参照しています。'pattern' には、'question->head' と同じ NULL 値が含まれます。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(339): warning C6011: NULL ポインター 'last_pattern' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(344): warning C28182: NULL ポインターを逆参照しています。'pattern' には、'tree->head' と同じ NULL 値が含まれます。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(624): warning C6011: NULL ポインター 'last_question' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(643): warning C6011: NULL ポインター 'last_tree' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(627): warning C28182: NULL ポインターを逆参照しています。'question' には、'model->question' と同じ NULL 値が含まれます。
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_model.c(646): warning C28182: NULL ポインターを逆参照しています。'tree' には、'model->tree' と同じ NULL 値が含まれます。これが行われる可能性のある以前の行 635 を参照してください
+     1>g:\github\openjtalks\openjtalk_vc\data\hts_engine_api-1.08\hts_engine_api-1.08\lib\hts_pstream.c(373): warning C6011: NULL ポインター 'pst->msd_flag' を逆参照しています。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\hts_engine_API-1.08\hts_engine_API-1.08.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.43
+経過時間 00:00:08.25

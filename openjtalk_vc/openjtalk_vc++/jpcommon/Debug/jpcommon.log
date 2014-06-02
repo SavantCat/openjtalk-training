@@ -1,18 +1,24 @@
-﻿2014/06/02 0:09:15 にビルドを開始しました。
-     1>ノード 3 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Build ターゲット)。
+﻿2014/06/02 20:01:05 にビルドを開始しました。
+     1>ノード 7 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Rebuild ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\openjtalk_vc++\jpcommon\jpcommon.c ..\openjtalk_vc++\jpcommon\jpcommon_label.c ..\openjtalk_vc++\jpcommon\jpcommon_node.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze /errorReport:prompt   /analyze:quiet ..\openjtalk_vc++\jpcommon\jpcommon.c ..\openjtalk_vc++\jpcommon\jpcommon_label.c ..\openjtalk_vc++\jpcommon\jpcommon_node.c
          jpcommon_node.c
          jpcommon_label.c
          jpcommon.c
+         C/C++ のコード分析を実行しています...
          コードを生成中...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\jpcommon.lib" /NOLOGO Debug\jpcommon.obj
          Debug\jpcommon_label.obj
          Debug\jpcommon_node.obj
          jpcommon.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\jpcommon.lib
-     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\jpcommon\jpcommon.c(139): warning C6001: 初期化されていないメモリ '*node' を使用しています。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\jpcommon\jpcommon_label.c(570): warning C6011: NULL ポインター 'label->phoneme_tail' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\jpcommon\jpcommon_label.c(617): warning C6011: NULL ポインター 'label->word_tail' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\jpcommon\jpcommon_label.c(576): warning C6011: NULL ポインター 'label->mora_tail' を逆参照しています。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\jpcommon\jpcommon_label.c(794): warning C28182: NULL ポインターを逆参照しています。'<COMPLEX_EXPR>' には、'b' と同じ NULL 値が含まれます。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\jpcommon\jpcommon.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.41
+経過時間 00:00:04.84

@@ -1,9 +1,14 @@
-﻿2014/06/02 0:09:15 にビルドを開始しました。
-     1>ノード 6 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Build ターゲット)。
-     1>Lib:
+﻿2014/06/02 20:01:05 にビルドを開始しました。
+     1>ノード 9 上のプロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze /errorReport:prompt   /analyze:quiet ..\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.c
+         njd_set_long_vowel.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\njd_set_long_vowel.lib" /NOLOGO Debug\njd_set_long_vowel.obj
          njd_set_long_vowel.vcxproj -> G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\Debug\njd_set_long_vowel.lib
-     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>g:\github\openjtalks\openjtalk_vc\openjtalk_vc++\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.c(104): warning C6385: 'njd_set_long_vowel_kanji_range' から無効なデータを読み取っています: 読み取り可能なサイズは '6' バイトですが、'7' バイトを読み取る可能性があります。
+     1>プロジェクト "G:\GitHub\openjtalks\openjtalk_vc\openjtalk_vc++\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.06
+経過時間 00:00:04.09
